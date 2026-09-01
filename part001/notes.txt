@@ -1,0 +1,16 @@
+selector,property,value
+
+inline css, style tag, external css
+
+priority-->
+inline > id > class > element
+-->
+inline > style tag = externassl [bottom style will run]
+
+Universal selector --> *{}
+id selector --> #myId{}
+class selector --> .myClass{}
+element selector --> h1{}
+
+
+1:06:13
