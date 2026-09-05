@@ -1,0 +1,13 @@
+text-align => {only align texts not tags}
+text-align: left / right / center [works according to parent]
+text-align: start / end  [ works according to language writing direction ]
+
+
+text-decoration: underline / overline / line-through / none
+
+font-weight: normal / bold / bolder / light
+font-weight: 100-900
+
+font-family: arial,roboto  [font style]
+
+1:42:00;
