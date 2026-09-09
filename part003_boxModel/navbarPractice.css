@@ -1,0 +1,41 @@
+*{
+    color: white;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    background-color: rgb(31, 31, 31);
+    height: 50px;
+    margin-top: 5px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#amazon{
+    margin-left: 5px;
+    color: rgb(218, 129, 14);
+}
+
+button{
+    background-color:rgb(218, 129, 14);
+    border-radius: 4px;
+    border:none;
+    padding: 2px;
+
+    margin-right: 5px;
+}
+
+input{
+    border: none;
+    border-radius: 4px;
+    padding: 2px;
+}

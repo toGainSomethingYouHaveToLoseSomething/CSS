@@ -1,0 +1,37 @@
+content - padding - border - margin
+height and width is for content
+
+border-width:2px;
+border-style: solid/ dotted / dashed ;
+border-color : balck;
+shorthand -> border: 2px solid balck;
+border-radios: 50px or 50%
+
+padding->
+padding-left:
+padding-right:
+padding-top:
+padding-bottom:
+shorthand-> padding: top right bottom left; clock-wise
+
+margin: structure is same as paddings
+
+
+Display Property->
+
+Display: inline / block / inline-block / none
+
+inline- takes only the space required by the element. (no margin/padding)
+block- takes full space available in width.
+inline-block- Similar to inline but we can set margin and padding
+none - To remove element from document flow.
+
+visibility: hidden; (space will be reserved)
+
+Alpha Channel: Opacity(0-1) RGBA color:rgb(255, 0, 0,0.5);
+
+
+relative units-> (%, em, rem)
+% -> relative to parent element
+
+3:09:30;

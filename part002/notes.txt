@@ -4,10 +4,20 @@ text-align: start / end  [ works according to language writing direction ]
 
 
 text-decoration: underline / overline / line-through / none
+text-decoration-style: wavy
+text-decoration-color: red
+shorthand-> text-decoration: underline wavy red;
 
 font-weight: normal / bold / bolder / light
 font-weight: 100-900
 
 font-family: arial,roboto  [font style]
 
-1:42:00;
+units:
+    absolute units:
+        96 px = 1 inch
+        font-size: 20px
+
+line-height: 20px [line spacing]
+
+text-transform : uppercase / lowercase / capitalize / none
