@@ -1,0 +1,14 @@
+display: flex -> flex-container
+by default - main axis ->x & cross axis ->y
+
+flex-direction: row(default) / row-reverse / column / column-reverse
+
+justify-content: flex-start / flex-end / center / space-evenly /space-between/ space-around (alignment along the main axis)
+flex-wrap: nowrap / wrap / wrap-reverse
+align-items: alignment along the cross axis
+align-content: (handle wrap spaces)
+
+flex-container-child propertice:
+align-self: sets its own alignment along corss axis 
+flex-grow:
+flex-shirnk:
