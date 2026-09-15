@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar">
+        <img src="menu.svg" alt="">
+    </button>
+
+    <nav id="navbar">
+        <ul>
+            <li><button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+                <img src="close_menu.svg" alt="">
+            </button></li>
+            <li class="home-li"><a  href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active-link" href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a class="accent-link" href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+    <main>
+        <h1>
+            Features
+        </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates dolorum at mollitia repellendus consequatur, pariatur, corporis excepturi consectetur enim recusandae minima eos modi et, sunt provident. Illo, asperiores veniam? Vitae recusandae ab sit impedit, quia quod voluptatem nam similique consequuntur at eum quidem laudantium ea ullam non cum vel ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ratione neque! Fuga hic maxime minus impedit magni beatae sint obcaecati et, veniam quibusdam, expedita voluptatibus illo, vitae soluta inventore nobis?</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
