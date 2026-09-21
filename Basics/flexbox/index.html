@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            border: 8px solid black;
+            min-height: 800px;
+            display: flex;
+
+            flex-direction: row;
+
+            gap: 20px;
+            flex-wrap: wrap;
+
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            justify-content: center;
+
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            align-items: center;
+            align-content: center;
+            /* align-items works on sinle line while align-content works on multiple lines */
+        }
+        .box{
+            /* flex-grow: ; */
+            /* flex-shrink: ; */
+            /* align-self: ; */
+            height: 200px;
+            width: 200px;
+            font-size: 40pt;
+            background-color: #0071ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+</body>
+</html>
