@@ -1,0 +1,48 @@
+/* element selector 
+p{
+    color: blue;
+} */
+
+/* grouping selector
+p , h1{
+    color: blue;
+} */
+
+/* id selector 
+#title{
+    color: blue;
+} */
+
+/* class selector 
+.course-card{
+    color: red;
+} */
+
+/* universal selector 
+*{
+    color: blue;
+} */
+
+/* descendant selector
+.navbar h1{
+    color: red;
+} */
+
+/* compound selector / both class selector 
+.class1.class2{
+    color: red;
+} */
+
+
+/* attribute selector
+a[href]{
+    color: red;
+}
+a[target="_blank"]{
+    color: blue;
+} */
+
+/* direct child selector
+.navbar > h1{
+    color: blueviolet;
+} */
